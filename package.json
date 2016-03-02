@@ -20,7 +20,9 @@
     "material-ui",
     "hot",
     "babel",
-    "es6"
+    "es6",
+    "es7",
+    "authentication"
   ],
   "author": "Tobias Koppers @sokra",
   "license": "MIT",
