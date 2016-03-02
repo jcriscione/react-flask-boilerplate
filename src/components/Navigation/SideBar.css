@@ -1,0 +1,17 @@
+
+
+@import '../variables.css';
+
+.sidebar .bg{
+	background-image: url('./sidenav_bg.png');
+    height: 70px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align:center;
+}
+  
+.badges{
+   margin-top:20px;
+   height:30px;
+}
+

@@ -1,0 +1,68 @@
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500);
+
+:root {
+
+  /*
+   * Colors
+   * ======================================================================== */
+
+  --white-base:            hsl(255, 255, 255);
+  --gray-darker:           color(black lightness(+13.5%)); /* #222 */
+  --gray-dark:             color(black lightness(+25%));   /* #404040 */
+  --gray:                  color(black lightness(+33.5%)); /* #555 */
+  --gray-light:            color(black lightness(+46.7%)); /* #777 */
+  --gray-lighter:          color(black lightness(+93.5%)); /* #eee */
+  --app-theme:             #0288d1;
+  --app-theme-light:       color(var(--app-theme) lightness(+20%));
+  --app-theme-dark:        color(var(--app-theme) lightness(-20%));
+  --app-theme-accent:      #ea6ef5;
+  --app-theme-accent-light:color(var(--app-theme-accent) lightness(+20%));
+  --a-link-color:          #9a99a9;
+  --a-link-hover-color:    #ea6ef5;
+  --a-link-active-color:   #d79d03;
+  --font-color:            rgba(0, 0, 0, 0.71);
+  --grid-bg-color:         #f4f5f6;
+  --footer-theme:          #333333;
+
+
+  /*
+   * Typography
+   * ======================================================================== */
+
+  --font-family-base:     'Roboto','Segoe UI', 'HelveticaNeue-Light', sans-serif;
+  --h1-size: 27px;
+  --h1-weight: 300;
+  --h2-size: 25px;
+  --h2-weight: 300;
+  --h3-size: 20px;
+  --h3-weight: 300;
+  --h5-size: 20px;
+  --h5-weight: 400;
+  --h-spacing: 5px;
+
+  /*
+   * Layout
+   * ======================================================================== */
+
+  --max-content-width:     1000px;
+  --leftnav-width: 17.02em;
+  --main-padding: 25px;
+  --text-padding: 20px;
+
+  /*
+   * Media queries breakpoints
+   * ======================================================================== */
+
+  --screen-xs-min:         480px;  /* Extra small screen / phone */
+  --screen-sm-min:         768px;  /* Small screen / tablet */
+  --screen-md-min:         992px;  /* Medium screen / desktop */
+  --screen-lg-min:         1200px; /* Large screen / wide desktop */
+
+  /*
+   * Animations
+   * ======================================================================== */
+
+  --animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;
+
+}

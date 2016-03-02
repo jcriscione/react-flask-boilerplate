@@ -1,0 +1,9 @@
+deploy
+node_modules
+build
+public
+**/*.pyc
+**/__pycache__
+server/_assets
+server/templates/index.html
+npm-debug.log

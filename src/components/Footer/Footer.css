@@ -1,0 +1,33 @@
+
+
+@import '../variables.css';
+
+ .footer {
+
+  ul.links{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+      li{
+        display:inline;
+        margin:10px;
+      }
+  }
+
+  .small-print{
+    font-size:13px;
+  }
+
+  .footer ul li a,
+  .footer ul li a:active,
+  .footer ul li a:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+  .footer ul li a:hover {
+    color: var(--app-theme-accent);
+  }
+
+}
