@@ -2,7 +2,6 @@
 
 import React from 'react';
 import styles from './Header.css';
-import HeaderItems from './HeaderItems';
 import { AppBar, Avatar, IconButton } from 'material-ui';
 import Svg from '../../svgicons';
 import PageActions from '../../actions/PageActions';
@@ -97,12 +96,6 @@ export default class Header extends React.Component{
                         </Link>
                     </div>
                      
-                    {/**<HeaderItems />
-                    <div className="headerIcon">
-                    <Paper zDepth={1} circle={true} style={styles.paperStyle}>
-                      <MoneyIcon style={{'fill':'#fff'}} />
-                    </Paper>
-                    </div>**/}
                        
             </div>
        
